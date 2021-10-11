@@ -1,0 +1,53 @@
+.content{
+  text-align: center;
+  background-image: url(/images/globalBackground.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.Binary_Classification-header {
+  background-color: #DAD2BC;
+  width: 60vh;
+  
+  font-size: calc(10px + 2vmin);
+  color: #000;
+}
+
+.Binary_Classification_link {
+  color: #000;
+}
+
+.Submit{
+  margin-bottom: 50px;
+}
+
+.navbar {
+  padding: 0;
+  margin-right: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+  color: #035E7B;
+  margin-left: 20px;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #002E2C;
+}
